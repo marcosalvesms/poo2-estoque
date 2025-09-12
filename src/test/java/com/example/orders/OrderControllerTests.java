@@ -1,23 +1,33 @@
 package com.example.orders;
 
-import com.example.orders.dto.ItemCreateDTO;
-import com.example.orders.dto.OrderCreateDTO;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import java.util.List;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@SpringBootTest
-@AutoConfigureMockMvc
+import com.example.orders.controller.OrderController;
+import com.example.orders.dto.ItemCreateDTO;
+import com.example.orders.dto.OrderCreateDTO;
+import com.example.orders.service.OrderService;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@WebMvcTest(OrderController.class)
 class OrderControllerTests {
 
-    @Autowired private MockMvc mockMvc;
+        @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private OrderService orderService; // mock de todos os services usados
+   
     @Autowired private ObjectMapper objectMapper;
 
     @Test
