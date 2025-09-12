@@ -1,0 +1,14 @@
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\config\CorsConfig.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\controller\OrderController.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\dto\ItemCreateDTO.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\dto\ItemDTO.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\dto\OrderCreateDTO.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\dto\OrderDTO.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\entity\Item.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\entity\Order.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\exception\GlobalExceptionHandler.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\exception\ResourceNotFoundException.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\OrdersApiApplication.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\repository\ItemRepository.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\repository\OrderRepository.java
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\main\java\com\example\orders\service\OrderService.java

@@ -10,6 +10,14 @@
     <java.version>17</java.version>
     <spring-boot.version>3.5.5</spring-boot.version>
   </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.2</version> <!-- use a versão estável que preferir -->
+        <relativePath/> <!-- busca no repositório do Maven -->
+    </parent>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
