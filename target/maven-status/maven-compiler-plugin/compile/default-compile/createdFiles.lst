@@ -5,7 +5,10 @@ com\example\orders\entity\Order.class
 com\example\orders\OrdersApiApplication.class
 com\example\orders\dto\ItemCreateDTO.class
 com\example\orders\entity\Item.class
+<<<<<<< HEAD
 com\example\orders\service\ItemService.class
+=======
+>>>>>>> e377ecdd8c008d558a640350f8da95df0f6c2751
 com\example\orders\dto\OrderDTO.class
 com\example\orders\config\CorsConfig$1.class
 com\example\orders\dto\ItemDTO.class
@@ -14,4 +17,7 @@ com\example\orders\controller\OrderController.class
 com\example\orders\repository\ItemRepository.class
 com\example\orders\service\OrderService.class
 com\example\orders\config\CorsConfig.class
+<<<<<<< HEAD
 com\example\orders\controller\ItemController.class
+=======
+>>>>>>> e377ecdd8c008d558a640350f8da95df0f6c2751

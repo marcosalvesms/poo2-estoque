@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot-with-items VERSAO 2\src\test\java\com\example\orders\ItemControllerTests.java
 C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot-with-items VERSAO 2\src\test\java\com\example\orders\OrderControllerTests.java
+=======
+C:\Users\malve\OneDrive\Área de Trabalho\orders-api-springboot\src\test\java\com\example\orders\OrderControllerTests.java
+>>>>>>> e377ecdd8c008d558a640350f8da95df0f6c2751
