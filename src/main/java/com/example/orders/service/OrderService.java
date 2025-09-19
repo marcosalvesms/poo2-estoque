@@ -71,9 +71,10 @@ public class OrderService {
 
     private Item toEntity(ItemCreateDTO dto) {
         Item i = new Item();
-        i.setName(dto.name());
-        i.setQuantity(dto.quantity());
-        i.setPrice(dto.price());
+        i.setName(dto.getName());
+        i.setQuantity(dto.getQuantity());
+        i.setPrice(dto.getPrice());
         return i;
     }
+
 }
